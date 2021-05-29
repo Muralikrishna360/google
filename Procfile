@@ -1,1 +1,1 @@
-echo web: gunicorn fly.wsgi --log-file - >Procfile
+web: gunicorn fly.wsgi --log-file -
