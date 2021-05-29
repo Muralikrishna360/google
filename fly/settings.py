@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '5!c4t7u(fc^e1)1rk&k5a!-xq1ic+t*5kf-s2zw3re^-$d3*d9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['git.heroku.com/thawing-dusk-44885.git', '127.0.0.1']
 
 
 # Application definition
